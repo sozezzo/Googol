@@ -1,5 +1,18 @@
 # Googol
 
+
+![image](https://user-images.githubusercontent.com/12115808/135704979-b6268798-b287-4250-a0ca-d120e5f44b21.png)
+
+
+Ce script PHP sert d'intermédiaire entre l'utilisateur et google:
+1. il transmet la requête vers google
+2. il récupère la page de résultats
+3. il parse la page pour isoler les données pertinentes et retirer les différents «espions» de google
+4. il propose une page propre et sans traceurs, sans pub, sans scripts.
+5. les miniatures sont récupérées temporairement sur le serveur ainsi aucun appel vers google n'est fait depuis le navigateur du client.
+
+
+
 Googol était un simple script destiné à s'intercaler entre google et l'usager afin que ce dernier ne donne aucune information au géant du web:
 
 
