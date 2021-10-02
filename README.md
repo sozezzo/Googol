@@ -34,6 +34,9 @@ J'ai donc un temps opté pour la transmission de la requête vers DDG puis j'ai 
 
 
 Sources:
+
 https://github.com/broncowdd/googol
+
 http://www.warriordudimanche.net/article1282/work-in-progress-googol
+
 (gros merci)
