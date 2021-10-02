@@ -1,1 +1,25 @@
 # Googol
+
+Googol était un simple script destiné à s'intercaler entre google et l'usager afin que ce dernier ne donne aucune information au géant du web:
+
+
+![image](https://user-images.githubusercontent.com/12115808/135704846-a4ff7d32-c441-4d60-a5d9-89e8d4f4ee37.png)
+
+
+En gros, l'usager envoie sa requête à googol, googol formule l'URL de requête vers Google, récupère les infos pertinentes sur la page de réponse, génère une page propre (sans aucun lien extérieur vers google, sans pub etc) et la restitue à l'usager.
+
+
+Toutefois...
+
+Google ne facilite pas la tâche: ses pages changent régulièrement (et il faut adapter le parseur) et il finit par bannir mon serveur googol quand trop de requêtes viennent de lui.
+
+J'ai donc un temps opté pour la transmission de la requête vers DDG puis j'ai préféré modifier Googol en profondeur pour qu'il puisse changer son moteur en interne: j'ai donc créé une classe google.php et une startpage.php pour que googol puisse changer de lui-même le temps du débannissement.
+
+![image](https://user-images.githubusercontent.com/12115808/135704855-559f8fc1-5c7a-4384-ad5b-fca98ccfda59.png)
+
+![image](https://user-images.githubusercontent.com/12115808/135704865-44c030a7-3e10-4c64-8aac-913ff2e5a627.png)
+
+
+Sources:
+http://www.warriordudimanche.net/article1282/work-in-progress-googol
+(gros merci)
